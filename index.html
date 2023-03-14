@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bíu lmao</title>
+    <link rel="stylesheet" href="c.css">
+</head>
+<body>
+    <div id="main">
+        
+        <div id="layer1">
+            <div id="layer2" >
+            <div id="firsttalk">
+                <span>Bấm vào lá thư!</span>
+            </div>
+            <div id="from">
+                <span>FROM: Một người bạn tốt</span>
+            </div>
+            <div id="to">
+                <span>TO: Một người bạn tệ</span>
+            </div>
+                <img src="./anhvovan/thu2.png" alt="" class="thu11" onclick="opencontent()">
+            </div>
+            <div id="content">
+
+                
+                <div id="layer3">
+                    <img src="./anhvovan/vien1.png" alt="" class="vien1">
+                    <img src="./anhvovan/vien3.png" alt="" class="vien3">
+                    <img src="./anhvovan/vien2.png" alt="" class="note1">
+                    <img src="./anhvovan/biu1.JPG" alt="" class="biu1">
+                    <img src="./anhvovan/biu2.JPG" alt="" class="biu2">
+                    <img src="./anhvovan/hoa2.gif" alt="" class="hoa">
+                    <img src="./anhvovan/phao1.gif" alt="" class="phao">
+                    <img src="./anhvovan/meo3.gif" alt="" class="meo">
+                    <img src="./anhvovan/meo1.gif" alt="" class="meo5">
+                </div>
+                <div id="cm">
+                    <span id="cmn"> <h1>CHÚC MỪNG SINH NHẬT<br><span><3</span><br>
+                   Chúc mừng bạn đã bước <br>sang tuổi 20. <br>Chúc bíu tuổi mới vui vẻ,<br> mạnh khỏe, bớt trẻ trâu. </h1></span>
+
+                </div>
+                <div id="dong" onclick="closecontent()">
+                    <span style="color: aquamarine;">X</span>
+                </div>
+            </div>
+        </div>
+        <div id="warn">
+            <img src="./anhvovan/817397.png" alt="" class="vovan1">
+            <h1 class="talkshit">Nếu được thì hãy mở đường link này bằng máy tính.<br>Còn không thì bấm vào nút bên dưới!!</h1>
+            <div id="cainut" onclick="closewarning()">
+                <span>ĐÂY LÀ CÁI NÚT!</span>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function opencontent() {
+        document.getElementById("content").style.display= "flex";
+    }
+    
+</script>
+<script>
+    function closecontent() {
+        document.getElementById("content").style.display= "none";
+    }
+    function closewarning(){
+        document.getElementById("warn").style.display= "none";
+    }
+</script>
+</html>
